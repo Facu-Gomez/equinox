@@ -1,3 +1,9 @@
 /Library
 /Temp
+/.vscode
+/Logs
+*.log
+Equinox.sln
+UserSettings/Search.index
+/UserSettings
 /Logs
