@@ -30,12 +30,12 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float movimientoHorizontal = Input.GetAxisRaw("Horizontal");
+        movimientoHorizontal = Input.GetAxisRaw("Horizontal");
         Player.transform.Translate(movimientoHorizontal * velocidad * Time.deltaTime, 0, 0);
 
         if (!playerDash.IsDashing)
         {
-
+       
         
         Jump();
         }
@@ -47,7 +47,7 @@ public class PlayerMove : MonoBehaviour
        
     }
 
-    private void FixedUpdate()
+    private void  FixedUpdate()
     {
 
         if (!playerDash.IsDashing) 
@@ -73,10 +73,13 @@ public class PlayerMove : MonoBehaviour
 
     private void Move()
     {
-        Player.transform.Translate(movimientoHorizontal * velocidad * Time.deltaTime, 0, 0);
+        rb.linearVelocity = new Vector2 (movimientoHorizontal * velocidad, rb.linearVelocity.y);
+        
+        
+        //Player.transform.Translate(movimientoHorizontal * velocidad * Time.deltaTime, 0, 0);
     }
 
-
+    
 }
 
 

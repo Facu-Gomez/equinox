@@ -47,17 +47,24 @@ public class PlayerDash : MonoBehaviour
 
     private IEnumerator Dash()
     {
-        isDashing = true;
-        canDash = false;
-        rb.gravityScale = 0f;
-        rb.linearVelocity = new Vector2(player.MovimientoHorizontal * dashForce,0);
+       if (player.MovimientoHorizontal != 0 && canDash)
+        {
 
-        yield return new WaitForSeconds(dashingTime);
-        isDashing = false;
-        rb.gravityScale = baseGravity;
-        
-        yield return new WaitForSeconds(timeCanDash);
-        canDash = true;
+            isDashing = true;
+            canDash = false;
+            rb.gravityScale = 0f;
+            rb.linearVelocity = new Vector2(player.MovimientoHorizontal * dashForce, 0f);
+
+            yield return new WaitForSeconds(dashingTime);
+            isDashing = false;
+            rb.gravityScale = baseGravity;
+
+            yield return new WaitForSeconds(timeCanDash);
+            canDash = true;
+
+        }
+
+
 
 
     }
