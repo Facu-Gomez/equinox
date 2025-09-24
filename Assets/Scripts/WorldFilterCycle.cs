@@ -5,7 +5,6 @@ using UnityEngine.Rendering.Universal;
 public class WorldFilterSwitcher : MonoBehaviour
 {
     public VolumeProfile[] filterProfiles;
-
     public float switchInterval = 10f;
 
     private Volume postProcessVolume;
@@ -40,17 +39,9 @@ public class WorldFilterSwitcher : MonoBehaviour
             filterProfiles[0] = ScriptableObject.CreateInstance<VolumeProfile>();
         }
 
+        // aplicar el primer filtro
         postProcessVolume.profile = ScriptableObject.Instantiate(filterProfiles[currentFilterIndex]);
         postProcessVolume.weight = 1f;
-
-        Camera[] allCameras = Camera.allCameras;
-        foreach (Camera cam in allCameras)
-        {
-            if (cam != mainCamera)
-            {
-                cam.enabled = false;
-            }
-        }
     }
 
     void Update()
