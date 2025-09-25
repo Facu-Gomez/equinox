@@ -2,40 +2,37 @@ using UnityEngine;
 
 public class PlayerSwitcher : MonoBehaviour
 {
-    public GameObject playerBlanco;
-    public GameObject playerRojo;
-
-    private GameObject jugadorActivo;
+    public GameObject mundoOcaso;
+    public GameObject mundoLuz;
+    private GameObject mundoActivo;
 
     void Start()
     {
-
-        jugadorActivo = playerBlanco;
-        playerBlanco.SetActive(true);
-        playerRojo.SetActive(false);
+        mundoActivo = mundoLuz;
+        mundoOcaso.SetActive(false);
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            CambiarJugador();
+            Cambiar();
         }
     }
 
-    void CambiarJugador()
+    void Cambiar()
     {
-        if (jugadorActivo == playerBlanco)
+        if (mundoActivo == mundoLuz)
         {
-            playerBlanco.SetActive(false);
-            playerRojo.SetActive(true);
-            jugadorActivo = playerRojo;
+            mundoLuz.SetActive(false);
+            mundoOcaso.SetActive(true);
+            mundoActivo = mundoOcaso;
         }
         else
         {
-            playerRojo.SetActive(false);
-            playerBlanco.SetActive(true);
-            jugadorActivo = playerBlanco;
+            mundoLuz.SetActive(true);
+            mundoOcaso.SetActive(false);
+            mundoActivo = mundoLuz;
         }
     }
 }
