@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: f2f08b5b3dd0464458b12791a8eea70b
+guid: f7ccc6c6d5654744b9614cf595e9c4c7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1593935258722847550
-    second: "65 sin t\xEDtulo_20250918210934_0"
+      213: 3748425351803905432
+    second: titulo_0
   - first:
-      213: 5505051048299242483
-    second: "65 sin t\xEDtulo_20250918210934_1"
+      213: -260909735339549982
+    second: titulo_1
   - first:
-      213: 7307926075330194200
-    second: "65 sin t\xEDtulo_20250918210934_2"
+      213: 4538464671395718399
+    second: titulo_2
   - first:
-      213: 8078612203575565115
-    second: "65 sin t\xEDtulo_20250918210934_3"
+      213: -2088605772664464383
+    second: titulo_3
   - first:
-      213: 6258718588521800253
-    second: "65 sin t\xEDtulo_20250918210934_4"
+      213: -8166048263052692138
+    second: titulo_4
   - first:
-      213: 7886352176302011051
-    second: "65 sin t\xEDtulo_20250918210934_5"
-  - first:
-      213: 5751361893953665271
-    second: "65 sin t\xEDtulo_20250918210934_6"
+      213: 9114575514424296362
+    second: titulo_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -64,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "65 sin t\xEDtulo_20250918210934_0"
+      name: titulo_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 118
-        width: 436
-        height: 708
+        x: 16
+        y: 98
+        width: 467
+        height: 730
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3b452b3cabce1610800000000000000
-      internalID: 1593935258722847550
+      spriteID: 89527595ff4150430800000000000000
+      internalID: 3748425351803905432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "65 sin t\xEDtulo_20250918210934_1"
+      name: titulo_1
       rect:
         serializedVersion: 2
-        x: 459
-        y: 137
-        width: 409
-        height: 701
+        x: 440
+        y: 117
+        width: 428
+        height: 726
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f3a44ce2ced56c40800000000000000
-      internalID: 5505051048299242483
+      spriteID: 2ea15a26aff016cf0800000000000000
+      internalID: -260909735339549982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "65 sin t\xEDtulo_20250918210934_2"
+      name: titulo_2
       rect:
         serializedVersion: 2
-        x: 772
-        y: 256
-        width: 321
-        height: 583
+        x: 763
+        y: 240
+        width: 332
+        height: 601
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81beed4eb08fa6560800000000000000
-      internalID: 7307926075330194200
+      spriteID: ff4a334a29ddbfe30800000000000000
+      internalID: 4538464671395718399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "65 sin t\xEDtulo_20250918210934_3"
+      name: titulo_3
       rect:
         serializedVersion: 2
         x: 1081
-        y: 199
-        width: 162
-        height: 636
+        y: 181
+        width: 168
+        height: 656
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3bd1403ffefc1070800000000000000
-      internalID: 8078612203575565115
+      spriteID: 10c118c9d18c303e0800000000000000
+      internalID: -2088605772664464383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "65 sin t\xEDtulo_20250918210934_4"
+      name: titulo_4
       rect:
         serializedVersion: 2
         x: 1255
-        y: 235
-        width: 352
-        height: 671
+        y: 217
+        width: 369
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d32e9f9656f6bd650800000000000000
-      internalID: 6258718588521800253
+      spriteID: 6557c0ece5e5cae80800000000000000
+      internalID: -8166048263052692138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "65 sin t\xEDtulo_20250918210934_5"
+      name: titulo_5
       rect:
         serializedVersion: 2
         x: 1633
-        y: 260
-        width: 307
-        height: 572
+        y: 109
+        width: 724
+        height: 803
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,30 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba23c1a4583f17d60800000000000000
-      internalID: 7886352176302011051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "65 sin t\xEDtulo_20250918210934_6"
-      rect:
-        serializedVersion: 2
-        x: 1793
-        y: 135
-        width: 526
-        height: 773
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f873d7ab21f0df40800000000000000
-      internalID: 5751361893953665271
+      spriteID: aa3cbb7a32a7d7e70800000000000000
+      internalID: 9114575514424296362
       vertices: []
       indices: 
       edges: []
@@ -275,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -285,13 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "65 sin t\xEDtulo_20250918210934_0": 1593935258722847550
-      "65 sin t\xEDtulo_20250918210934_1": 5505051048299242483
-      "65 sin t\xEDtulo_20250918210934_2": 7307926075330194200
-      "65 sin t\xEDtulo_20250918210934_3": 8078612203575565115
-      "65 sin t\xEDtulo_20250918210934_4": 6258718588521800253
-      "65 sin t\xEDtulo_20250918210934_5": 7886352176302011051
-      "65 sin t\xEDtulo_20250918210934_6": 5751361893953665271
+      titulo_0: 3748425351803905432
+      titulo_1: -260909735339549982
+      titulo_2: 4538464671395718399
+      titulo_3: -2088605772664464383
+      titulo_4: -8166048263052692138
+      titulo_5: 9114575514424296362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
