@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Suelo
   - Player2
+  - Puente
   layers:
   - Default
   - TransparentFX
