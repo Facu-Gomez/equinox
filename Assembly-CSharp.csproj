@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Alba\AlbaScript.cs" />
     <Compile Include="Assets\Scripts\Ocaso\OcasoScript.cs" />
+    <Compile Include="Assets\PuenteTrigger.cs" />
     <Compile Include="Assets\Scripts\Alba\PlayerDash.cs" />
   </ItemGroup>
   <ItemGroup>
