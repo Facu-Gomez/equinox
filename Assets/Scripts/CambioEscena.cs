@@ -1,0 +1,27 @@
+using Unity.VisualScripting;
+using UnityEditor;
+using UnityEditor.SearchService;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+public class CambioEscena : MonoBehaviour
+{
+    [SerializeField] private SceneAsset escena;
+
+    // Llama a esta función desde el botón
+    public void CambiarEscena()
+    {
+        if (escena != null)
+        {
+            SceneManager.LoadScene(escena.name);
+        }
+        else
+        {
+            Debug.LogWarning("No se ha asignado ninguna escena.");
+        }
+    }
+    public void OnButtonClick()
+    {
+        Debug.Log("Botón presionado, cambiando escena...");
+        CambiarEscena();
+    }
+}
