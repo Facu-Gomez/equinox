@@ -2,12 +2,17 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float velocidad = 8f;
-    public float fuerzaSalto = 12f;  // Fuerza del salto
-    private bool enSuelo = false;    // Para saber si puede saltar
+    [Header("Movimiento")]
+    public float moveSpeed = 5f;
+
+    [Header("Salto")]
+    public float jumpForce = 7f;                 
+    public Transform groundCheck;                
+    public float groundCheckRadius = 0.2f;       
+    public LayerMask groundLayer;                
 
     private Rigidbody2D rb;
-    public GameObject Player;
+    private bool isGrounded;
 
     void Start()
     {
@@ -16,24 +21,23 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // Movimiento horizontal
-        float movimientoHorizontal = Input.GetAxisRaw("Horizontal");
-        Player.transform.Translate(movimientoHorizontal * velocidad * Time.deltaTime, 0, 0);
+        float move = Input.GetAxisRaw("Horizontal");
+        rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
 
-        // Salto con W (solo si está en el suelo)
-        if (Input.GetKeyDown(KeyCode.W) && enSuelo)
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
-            enSuelo = false;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 
-    // Detectar si el jugador toca el suelo
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnDrawGizmosSelected()
     {
-        if (collision.gameObject.CompareTag("Suelo")) // asegúrate de que tu suelo tenga el tag "Suelo"
+        if (groundCheck != null)
         {
-            enSuelo = true;
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
 }

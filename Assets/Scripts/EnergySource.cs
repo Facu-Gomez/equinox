@@ -15,7 +15,7 @@ public class ChargeSource : MonoBehaviour
 
     void Start()
     {
-        promptText.text = "";
+        promptText.text = "Press Q";
     }
 
     void Update()
@@ -46,8 +46,7 @@ public class ChargeSource : MonoBehaviour
             }
             else if (!isFullyCharged)
             {
-                promptText.text = currentCharge > 0 ? "Cargando fuente: " + Mathf.RoundToInt(currentCharge) + "%"
-                                                    : "Mantener apretado Q para cargar la fuente";
+                promptText.text = currentCharge > 0 ? "Cargando fuente: " + Mathf.RoundToInt(currentCharge) + "%": "Mantener apretado Q para cargar la fuente";
             }
         }
         else

@@ -45,6 +45,3 @@ public class Ascensor : MonoBehaviour, IDActivable
     }
 
 }
-
-  
-  

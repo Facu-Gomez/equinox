@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class WorldFilterSwitcher : MonoBehaviour
@@ -112,5 +113,14 @@ public class WorldFilterSwitcher : MonoBehaviour
 
         if (ocasoRenderer != null)
             ocasoRenderer.color = new Color(1, 1, 1, currentFilterIndex == 1 ? 1f : 0f);
+    }
+    void Awake()
+    {
+        // Si no estamos en la escena del menú, destruir este objeto
+        if (SceneManager.GetActiveScene().name != "Menu")
+        {
+            Destroy(gameObject);
+            return;
+        }
     }
 }
