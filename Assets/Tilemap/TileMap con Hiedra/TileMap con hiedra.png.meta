@@ -1,0 +1,2748 @@
+fileFormatVersion: 2
+guid: 7810557f55499e74c97bca974d9387c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2783957043111439042
+    second: TileMap con hiedra_0
+  - first:
+      213: 4484220454765577260
+    second: TileMap con hiedra_1
+  - first:
+      213: -4061271614590097491
+    second: TileMap con hiedra_2
+  - first:
+      213: 1601295087425864379
+    second: TileMap con hiedra_3
+  - first:
+      213: 5233738293406690217
+    second: TileMap con hiedra_4
+  - first:
+      213: -4622285784262735030
+    second: TileMap con hiedra_5
+  - first:
+      213: 8248080487189301702
+    second: TileMap con hiedra_6
+  - first:
+      213: -8549080238884838830
+    second: TileMap con hiedra_7
+  - first:
+      213: 3102474339136417467
+    second: TileMap con hiedra_8
+  - first:
+      213: -883411284244746397
+    second: TileMap con hiedra_9
+  - first:
+      213: 110218157178239793
+    second: TileMap con hiedra_10
+  - first:
+      213: 8948392082237186453
+    second: TileMap con hiedra_11
+  - first:
+      213: -2295662440290737298
+    second: TileMap con hiedra_12
+  - first:
+      213: -1049646607119026322
+    second: TileMap con hiedra_13
+  - first:
+      213: 1056093907077204279
+    second: TileMap con hiedra_14
+  - first:
+      213: -7956189247995366389
+    second: TileMap con hiedra_15
+  - first:
+      213: 6125470421530810382
+    second: TileMap con hiedra_16
+  - first:
+      213: -5862173418442242758
+    second: TileMap con hiedra_17
+  - first:
+      213: -2302234752318238579
+    second: TileMap con hiedra_18
+  - first:
+      213: 5299816959976318525
+    second: TileMap con hiedra_19
+  - first:
+      213: 2765453615625485401
+    second: TileMap con hiedra_20
+  - first:
+      213: 2041421081144660594
+    second: TileMap con hiedra_21
+  - first:
+      213: -6859681180399977214
+    second: TileMap con hiedra_22
+  - first:
+      213: -3805223254759706272
+    second: TileMap con hiedra_23
+  - first:
+      213: -8701128597993495673
+    second: TileMap con hiedra_24
+  - first:
+      213: -6629185707917036142
+    second: TileMap con hiedra_25
+  - first:
+      213: 8323555280622318208
+    second: TileMap con hiedra_26
+  - first:
+      213: 5699466048249060581
+    second: TileMap con hiedra_27
+  - first:
+      213: 7239425816248350512
+    second: TileMap con hiedra_28
+  - first:
+      213: -5740054859723796725
+    second: TileMap con hiedra_29
+  - first:
+      213: -8222172401792362449
+    second: TileMap con hiedra_30
+  - first:
+      213: -3043790496740511411
+    second: TileMap con hiedra_31
+  - first:
+      213: -824478389475298172
+    second: TileMap con hiedra_32
+  - first:
+      213: 5463245884385243949
+    second: TileMap con hiedra_33
+  - first:
+      213: 3808797493570610879
+    second: TileMap con hiedra_34
+  - first:
+      213: -7089452370974245676
+    second: TileMap con hiedra_35
+  - first:
+      213: -7437581961630852444
+    second: TileMap con hiedra_36
+  - first:
+      213: -8749106714645399291
+    second: TileMap con hiedra_37
+  - first:
+      213: -7917143295290987411
+    second: TileMap con hiedra_38
+  - first:
+      213: -4570971722938877312
+    second: TileMap con hiedra_39
+  - first:
+      213: 7696455480908157758
+    second: TileMap con hiedra_40
+  - first:
+      213: -2979557013698391693
+    second: TileMap con hiedra_41
+  - first:
+      213: -98277949450800721
+    second: TileMap con hiedra_42
+  - first:
+      213: 81861869702719390
+    second: TileMap con hiedra_43
+  - first:
+      213: -1572593491976999192
+    second: TileMap con hiedra_44
+  - first:
+      213: 1869945827960662121
+    second: TileMap con hiedra_45
+  - first:
+      213: -4969102408411052808
+    second: TileMap con hiedra_46
+  - first:
+      213: 7169894678147415891
+    second: TileMap con hiedra_47
+  - first:
+      213: -5299920125830151312
+    second: TileMap con hiedra_48
+  - first:
+      213: -1365091131066341322
+    second: TileMap con hiedra_49
+  - first:
+      213: -4232449752084742107
+    second: TileMap con hiedra_50
+  - first:
+      213: -8325190285492809334
+    second: TileMap con hiedra_51
+  - first:
+      213: -1281144671356518969
+    second: TileMap con hiedra_52
+  - first:
+      213: -1410585219086362963
+    second: TileMap con hiedra_53
+  - first:
+      213: -5236156079550537905
+    second: TileMap con hiedra_54
+  - first:
+      213: 137352583826928410
+    second: TileMap con hiedra_55
+  - first:
+      213: -2838529605897719068
+    second: TileMap con hiedra_56
+  - first:
+      213: -2463463491711589333
+    second: TileMap con hiedra_57
+  - first:
+      213: 5734368410547310387
+    second: TileMap con hiedra_58
+  - first:
+      213: 1294795216580342910
+    second: TileMap con hiedra_59
+  - first:
+      213: -2844186282305502836
+    second: TileMap con hiedra_60
+  - first:
+      213: -5316911183267177431
+    second: TileMap con hiedra_61
+  - first:
+      213: -7406547028295686700
+    second: TileMap con hiedra_62
+  - first:
+      213: 5531690743668547929
+    second: TileMap con hiedra_63
+  - first:
+      213: -7010589595202235220
+    second: TileMap con hiedra_64
+  - first:
+      213: 2847729739891790822
+    second: TileMap con hiedra_65
+  - first:
+      213: -2325593848505306363
+    second: TileMap con hiedra_66
+  - first:
+      213: 1577387505168516577
+    second: TileMap con hiedra_67
+  - first:
+      213: 7353390218529713748
+    second: TileMap con hiedra_68
+  - first:
+      213: 839441521418372862
+    second: TileMap con hiedra_69
+  - first:
+      213: -684360349311267638
+    second: TileMap con hiedra_70
+  - first:
+      213: -3445020329750356724
+    second: TileMap con hiedra_71
+  - first:
+      213: -498077206257735053
+    second: TileMap con hiedra_72
+  - first:
+      213: 6127839736415706374
+    second: TileMap con hiedra_73
+  - first:
+      213: 7934869124590624022
+    second: TileMap con hiedra_74
+  - first:
+      213: 4309935207835538005
+    second: TileMap con hiedra_75
+  - first:
+      213: 2384984544949120709
+    second: TileMap con hiedra_76
+  - first:
+      213: -6449894177160752145
+    second: TileMap con hiedra_77
+  - first:
+      213: 9052377865020153362
+    second: TileMap con hiedra_78
+  - first:
+      213: -559826044794278547
+    second: TileMap con hiedra_79
+  - first:
+      213: 8355396281178477757
+    second: TileMap con hiedra_80
+  - first:
+      213: -719322068871742196
+    second: TileMap con hiedra_81
+  - first:
+      213: -4423226526323987742
+    second: TileMap con hiedra_82
+  - first:
+      213: 3690346106014059205
+    second: TileMap con hiedra_83
+  - first:
+      213: 325882916105423177
+    second: TileMap con hiedra_84
+  - first:
+      213: -644980788928172199
+    second: TileMap con hiedra_85
+  - first:
+      213: -2719307270338948512
+    second: TileMap con hiedra_86
+  - first:
+      213: -7383172316033598321
+    second: TileMap con hiedra_87
+  - first:
+      213: 8420388035611643823
+    second: TileMap con hiedra_88
+  - first:
+      213: -5116607570117484465
+    second: TileMap con hiedra_89
+  - first:
+      213: 6010992981359229597
+    second: TileMap con hiedra_90
+  - first:
+      213: -7561783897710168598
+    second: TileMap con hiedra_91
+  - first:
+      213: -5159599387012631883
+    second: TileMap con hiedra_92
+  - first:
+      213: 6473014261837806213
+    second: TileMap con hiedra_93
+  - first:
+      213: -2815267404396417190
+    second: TileMap con hiedra_94
+  - first:
+      213: 2500075459143426886
+    second: TileMap con hiedra_95
+  - first:
+      213: 8117942973644323345
+    second: TileMap con hiedra_96
+  - first:
+      213: 1426936649824195508
+    second: TileMap con hiedra_97
+  - first:
+      213: -1097965781294802041
+    second: TileMap con hiedra_98
+  - first:
+      213: -3991514001518089098
+    second: TileMap con hiedra_99
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileMap con hiedra_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2caaa904e2a92a620800000000000000
+      internalID: 2783957043111439042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 296
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24c7d4ceb62b3e30800000000000000
+      internalID: 4484220454765577260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 296
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7eafbebf673a7c0800000000000000
+      internalID: -4061271614590097491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 296
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2c892e561f83610800000000000000
+      internalID: 1601295087425864379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 284
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9cfbdb081177270800000000000000
+      internalID: 8248080487189301702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbeadfc49f33e0b20800000000000000
+      internalID: 3102474339136417467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f25041e1e7db3f0800000000000000
+      internalID: -883411284244746397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5916aac20331f2c70800000000000000
+      internalID: 8948392082237186453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63a34a6c2b2420e0800000000000000
+      internalID: -2295662440290737298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 272
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67f9fad8f7ee61f0800000000000000
+      internalID: -1049646607119026322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7398ac420dff7ae00800000000000000
+      internalID: 1056093907077204279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 272
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04347b5800f59190800000000000000
+      internalID: -7956189247995366389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 284
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a354306c55065aea0800000000000000
+      internalID: -5862173418442242758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 284
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36aaf9027bbc8940800000000000000
+      internalID: 5299816959976318525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c3d22596dd06620800000000000000
+      internalID: 2765453615625485401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2721f9a48a5945c10800000000000000
+      internalID: 2041421081144660594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061fdf85c91213bc0800000000000000
+      internalID: -3805223254759706272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783ea9304a16f3780800000000000000
+      internalID: -8701128597993495673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 248
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2953289b8b66004a0800000000000000
+      internalID: -6629185707917036142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 248
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082f1d97d65338370800000000000000
+      internalID: 8323555280622318208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 248
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecd84f7c22981f40800000000000000
+      internalID: 5699466048249060581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_29
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 260
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f88e6648a3750b0800000000000000
+      internalID: -5740054859723796725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 260
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28552573c9f4ed80800000000000000
+      internalID: -8222172401792362449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_31
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 260
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41721f7ba842c5d0800000000000000
+      internalID: -3043790496740511411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_35
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 248
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc770051a43d9d90800000000000000
+      internalID: -7089452370974245676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aad325ac9668c890800000000000000
+      internalID: -7437581961630852444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 224
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509739b3ccde49680800000000000000
+      internalID: -8749106714645399291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ca058ae18a02290800000000000000
+      internalID: -7917143295290987411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a7fdf9f65a090c0800000000000000
+      internalID: -4570971722938877312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_41
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 236
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371db72beac76a6d0800000000000000
+      internalID: -2979557013698391693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 236
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa13bb5c9b8d2aef0800000000000000
+      internalID: -98277949450800721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 236
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97a740dfe4d22100800000000000000
+      internalID: 81861869702719390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeae9e0d860d2ae0800000000000000
+      internalID: -1572593491976999192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968a1d8b2d163f910800000000000000
+      internalID: 1869945827960662121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07343f9c9b6e276b0800000000000000
+      internalID: -5299920125830151312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5208c4dff515345c0800000000000000
+      internalID: -4232449752084742107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_52
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 192
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdf8ed85b5783ee0800000000000000
+      internalID: -1281144671356518969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f53e9b9cf6557b0800000000000000
+      internalID: -5236156079550537905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a137cff7279f7e100800000000000000
+      internalID: 137352583826928410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24236b910500ddd0800000000000000
+      internalID: -2463463491711589333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_62
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 192
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5e53628b8a63990800000000000000
+      internalID: -7406547028295686700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e585be149104e510800000000000000
+      internalID: 1577387505168516577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45eab4e917d7c0660800000000000000
+      internalID: 7353390218529713748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_69
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef60bddbd9b46ab00800000000000000
+      internalID: 839441521418372862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_70
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc80f063e9a086f0800000000000000
+      internalID: -684360349311267638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d1b393344d030d0800000000000000
+      internalID: -3445020329750356724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ae94a7b697619f0800000000000000
+      internalID: -498077206257735053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dd49906c57a0550800000000000000
+      internalID: 6127839736415706374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_74
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d50769d615e1e60800000000000000
+      internalID: 7934869124590624022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_75
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5529cfb8c37ffcb30800000000000000
+      internalID: 4309935207835538005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce2d74beca291120800000000000000
+      internalID: 2384984544949120709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d6608ad291b38f0800000000000000
+      internalID: -559826044794278547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_80
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 136
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4534126a454f370800000000000000
+      internalID: 8355396281178477757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 136
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dfcc5b3647406f0800000000000000
+      internalID: -719322068871742196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_82
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 136
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eaaf59d8ea8d92c0800000000000000
+      internalID: -4423226526323987742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_83
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 124
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cac63b2b3eb63330800000000000000
+      internalID: 3690346106014059205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_85
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 124
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f2cf4c3619c07f0800000000000000
+      internalID: -644980788928172199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_86
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 124
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0625f44f174134ad0800000000000000
+      internalID: -2719307270338948512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafc4952e4a3bd470800000000000000
+      internalID: 8420388035611643823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_90
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a7849d4465b6350800000000000000
+      internalID: 6010992981359229597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae577bceb952f0790800000000000000
+      internalID: -7561783897710168598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_92
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2f9c9b1bb6568b0800000000000000
+      internalID: -5159599387012631883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a31e6fc24c4d950800000000000000
+      internalID: 6473014261837806213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_94
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 112
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f273d26392ee8d0800000000000000
+      internalID: -2815267404396417190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_95
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 100
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6436ae5526d02b220800000000000000
+      internalID: 2500075459143426886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_96
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ab2f2bf1ab8a070800000000000000
+      internalID: 8117942973644323345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_97
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 100
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3d1c1a25f7dc310800000000000000
+      internalID: 1426936649824195508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_98
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 76
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b936e60fd33c0f0800000000000000
+      internalID: -1097965781294802041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c248fd92b4b98c0800000000000000
+      internalID: -3991514001518089098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96ed54868c132847bdddf00b75ace41
+      internalID: -1305965520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_102
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542933f848a3266438a50b543a23c512
+      internalID: 1768024441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4192ec039647c4e86f4668e173fb6e
+      internalID: 1526529872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_104
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cee50d3ad2bdd644b82e279b409dec0
+      internalID: 234878820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_105
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae93d476ef55dde428777600b3eb5a9e
+      internalID: -1851732691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_106
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848ade6c218d5084391af1fb6271ed4d
+      internalID: 1209762251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_107
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 100
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ea6f957f61c7b418eba7aca2cec902
+      internalID: -1448120611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_110
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 76
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.7044957, y: 1.1777573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f189f78fe4caa04aa6cb1780237bea6
+      internalID: 1915694824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40146aeaaeaf0f44e815500c798a8e81
+      internalID: -478188865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12806e1a4d53f34b8e1145fffd7f4d2
+      internalID: -953028461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_116
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bd94164de897c4693d74e5951b56fe
+      internalID: -676962236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_117
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a118087de35534290217edae837c5b
+      internalID: -544793841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_118
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808bed2025bcc7e448c2ec0e587b00c6
+      internalID: -52645509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_119
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952ae4d39ebbb00459c0409c69578e6c
+      internalID: -1122211005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_120
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8ae0641b0fa294793a394f45b48b59
+      internalID: -456594425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31af34f09850f47408dd2eb37358ba5b
+      internalID: -1871955687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_123
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb24d9db4b15d5848a1e81f869fe1d9c
+      internalID: -2015485375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_125
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 32
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95325f4a784ff0445b185097fe3e660a
+      internalID: -834497524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_127
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 32
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404bf7d9a6baa6c4e98bb50f80fe2abd
+      internalID: 1051761008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_128
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cd697419f2d1d4a9967c446dd034e3
+      internalID: -1723690219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_129
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd807886d0055234dbb23d4e811f8a60
+      internalID: 121698855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_131
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7733aa5912fa2514a847374b019f0a62
+      internalID: -1587033064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2628c47984450e745be4ab1de07bfa28
+      internalID: -1496526787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_133
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fb78e0b327fb54795b8e63a2df5972
+      internalID: -770547903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_134
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.51278, y: 0.005841732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2da70fa98725ef4e94f3d46bad6fcb9
+      internalID: -1399731865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_135
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886c8edd56e59af488d18488341de547
+      internalID: 1508277614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_136
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ab2a5c19d54ba40af16d3f1b41a01e
+      internalID: -1242936615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_137
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c06f18d017f5374196f107240c4d641
+      internalID: -1161827700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_138
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f30d9faec808b479b1f7fe97b0d99b
+      internalID: 360897691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileMap con hiedra_139
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c432937291655fa4091fb4ddd9b7bbbf
+      internalID: 1428746176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 50b429ced07530c4bae41992e7f2f38b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TileMap con hiedra_0: 2783957043111439042
+      TileMap con hiedra_1: 4484220454765577260
+      TileMap con hiedra_10: 110218157178239793
+      TileMap con hiedra_100: -1305965520
+      TileMap con hiedra_101: 782309437
+      TileMap con hiedra_102: 1768024441
+      TileMap con hiedra_103: 1526529872
+      TileMap con hiedra_104: 234878820
+      TileMap con hiedra_105: -1851732691
+      TileMap con hiedra_106: 1209762251
+      TileMap con hiedra_107: -1448120611
+      TileMap con hiedra_108: -1800722319
+      TileMap con hiedra_109: 335463706
+      TileMap con hiedra_11: 8948392082237186453
+      TileMap con hiedra_110: 1915694824
+      TileMap con hiedra_111: 340797501
+      TileMap con hiedra_112: -162918666
+      TileMap con hiedra_113: 1806629643
+      TileMap con hiedra_114: -478188865
+      TileMap con hiedra_115: -953028461
+      TileMap con hiedra_116: -676962236
+      TileMap con hiedra_117: -544793841
+      TileMap con hiedra_118: -52645509
+      TileMap con hiedra_119: -1122211005
+      TileMap con hiedra_12: -2295662440290737298
+      TileMap con hiedra_120: -456594425
+      TileMap con hiedra_121: 2063196248
+      TileMap con hiedra_122: -1871955687
+      TileMap con hiedra_123: -2015485375
+      TileMap con hiedra_124: -618399512
+      TileMap con hiedra_125: -834497524
+      TileMap con hiedra_126: 1262507092
+      TileMap con hiedra_127: 1051761008
+      TileMap con hiedra_128: -1723690219
+      TileMap con hiedra_129: 121698855
+      TileMap con hiedra_13: -1049646607119026322
+      TileMap con hiedra_130: 233203484
+      TileMap con hiedra_131: -1587033064
+      TileMap con hiedra_132: -1496526787
+      TileMap con hiedra_133: -770547903
+      TileMap con hiedra_134: -1399731865
+      TileMap con hiedra_135: 1508277614
+      TileMap con hiedra_136: -1242936615
+      TileMap con hiedra_137: -1161827700
+      TileMap con hiedra_138: 360897691
+      TileMap con hiedra_139: 1428746176
+      TileMap con hiedra_14: 1056093907077204279
+      TileMap con hiedra_15: -7956189247995366389
+      TileMap con hiedra_16: 6125470421530810382
+      TileMap con hiedra_17: -5862173418442242758
+      TileMap con hiedra_18: -2302234752318238579
+      TileMap con hiedra_19: 5299816959976318525
+      TileMap con hiedra_2: -4061271614590097491
+      TileMap con hiedra_20: 2765453615625485401
+      TileMap con hiedra_21: 2041421081144660594
+      TileMap con hiedra_22: -6859681180399977214
+      TileMap con hiedra_23: -3805223254759706272
+      TileMap con hiedra_24: -8701128597993495673
+      TileMap con hiedra_25: -6629185707917036142
+      TileMap con hiedra_26: 8323555280622318208
+      TileMap con hiedra_27: 5699466048249060581
+      TileMap con hiedra_28: 7239425816248350512
+      TileMap con hiedra_29: -5740054859723796725
+      TileMap con hiedra_3: 1601295087425864379
+      TileMap con hiedra_30: -8222172401792362449
+      TileMap con hiedra_31: -3043790496740511411
+      TileMap con hiedra_32: -824478389475298172
+      TileMap con hiedra_33: 5463245884385243949
+      TileMap con hiedra_34: 3808797493570610879
+      TileMap con hiedra_35: -7089452370974245676
+      TileMap con hiedra_36: -7437581961630852444
+      TileMap con hiedra_37: -8749106714645399291
+      TileMap con hiedra_38: -7917143295290987411
+      TileMap con hiedra_39: -4570971722938877312
+      TileMap con hiedra_4: 5233738293406690217
+      TileMap con hiedra_40: 7696455480908157758
+      TileMap con hiedra_41: -2979557013698391693
+      TileMap con hiedra_42: -98277949450800721
+      TileMap con hiedra_43: 81861869702719390
+      TileMap con hiedra_44: -1572593491976999192
+      TileMap con hiedra_45: 1869945827960662121
+      TileMap con hiedra_46: -4969102408411052808
+      TileMap con hiedra_47: 7169894678147415891
+      TileMap con hiedra_48: -5299920125830151312
+      TileMap con hiedra_49: -1365091131066341322
+      TileMap con hiedra_5: -4622285784262735030
+      TileMap con hiedra_50: -4232449752084742107
+      TileMap con hiedra_51: -8325190285492809334
+      TileMap con hiedra_52: -1281144671356518969
+      TileMap con hiedra_53: -1410585219086362963
+      TileMap con hiedra_54: -5236156079550537905
+      TileMap con hiedra_55: 137352583826928410
+      TileMap con hiedra_56: -2838529605897719068
+      TileMap con hiedra_57: -2463463491711589333
+      TileMap con hiedra_58: 5734368410547310387
+      TileMap con hiedra_59: 1294795216580342910
+      TileMap con hiedra_6: 8248080487189301702
+      TileMap con hiedra_60: -2844186282305502836
+      TileMap con hiedra_61: -5316911183267177431
+      TileMap con hiedra_62: -7406547028295686700
+      TileMap con hiedra_63: 5531690743668547929
+      TileMap con hiedra_64: -7010589595202235220
+      TileMap con hiedra_65: 2847729739891790822
+      TileMap con hiedra_66: -2325593848505306363
+      TileMap con hiedra_67: 1577387505168516577
+      TileMap con hiedra_68: 7353390218529713748
+      TileMap con hiedra_69: 839441521418372862
+      TileMap con hiedra_7: -8549080238884838830
+      TileMap con hiedra_70: -684360349311267638
+      TileMap con hiedra_71: -3445020329750356724
+      TileMap con hiedra_72: -498077206257735053
+      TileMap con hiedra_73: 6127839736415706374
+      TileMap con hiedra_74: 7934869124590624022
+      TileMap con hiedra_75: 4309935207835538005
+      TileMap con hiedra_76: 2384984544949120709
+      TileMap con hiedra_77: -6449894177160752145
+      TileMap con hiedra_78: 9052377865020153362
+      TileMap con hiedra_79: -559826044794278547
+      TileMap con hiedra_8: 3102474339136417467
+      TileMap con hiedra_80: 8355396281178477757
+      TileMap con hiedra_81: -719322068871742196
+      TileMap con hiedra_82: -4423226526323987742
+      TileMap con hiedra_83: 3690346106014059205
+      TileMap con hiedra_84: 325882916105423177
+      TileMap con hiedra_85: -644980788928172199
+      TileMap con hiedra_86: -2719307270338948512
+      TileMap con hiedra_87: -7383172316033598321
+      TileMap con hiedra_88: 8420388035611643823
+      TileMap con hiedra_89: -5116607570117484465
+      TileMap con hiedra_9: -883411284244746397
+      TileMap con hiedra_90: 6010992981359229597
+      TileMap con hiedra_91: -7561783897710168598
+      TileMap con hiedra_92: -5159599387012631883
+      TileMap con hiedra_93: 6473014261837806213
+      TileMap con hiedra_94: -2815267404396417190
+      TileMap con hiedra_95: 2500075459143426886
+      TileMap con hiedra_96: 8117942973644323345
+      TileMap con hiedra_97: 1426936649824195508
+      TileMap con hiedra_98: -1097965781294802041
+      TileMap con hiedra_99: -3991514001518089098
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
