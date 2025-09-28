@@ -2,82 +2,63 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    [SerializeField] private bool showDebugRays = true;
-    
-    private const float GROUND_CHECK_DISTANCE = 1.5f;
-    private const float GROUND_CHECK_LEFT_OFFSET = -0.5f;
-    private const float GROUND_CHECK_RIGHT_OFFSET = 0.5f;
-    private const int RAY_COUNT = 3;
-
-    private readonly Ray2D[] _groundCheckRays = new Ray2D[RAY_COUNT];
-    private readonly Vector2[] _rayOffsets = new Vector2[RAY_COUNT];
-    private LayerMask _groundMask;
+    [Header("GroundCheck settings")]
+    public LayerMask groundLayer;
+    public float checkDistance = 0.18f;
+    public float horizontalSpread = 0.45f;
+    public int rayCount = 3;
+    public bool showDebugRays = true;
+    public Vector2 originOffset = Vector2.zero;
 
     public bool IsGrounded { get; private set; }
 
-    private void Awake()
+    private Vector2[] offsets;
+
+    void Awake()
     {
-        InitializeRayOffsets();
-        _groundMask = LayerMask.GetMask("Ground");
-        if (_groundMask == 0)
+        offsets = new Vector2[rayCount];
+        if (rayCount == 1)
         {
-            Debug.LogWarning("Ground layer not found. Please ensure 'Ground' layer exists.");
+            offsets[0] = Vector2.zero;
+        }
+        else if (rayCount == 3)
+        {
+            offsets[0] = new Vector2(-horizontalSpread, 0f);
+            offsets[1] = Vector2.zero;
+            offsets[2] = new Vector2(horizontalSpread, 0f);
+        }
+        else
+        {
+            for (int i = 0; i < rayCount; i++)
+            {
+                float t = (float)i / (rayCount - 1);
+                offsets[i] = new Vector2(Mathf.Lerp(-horizontalSpread, horizontalSpread, t), 0f);
+            }
         }
     }
 
-    private void InitializeRayOffsets()
-    {
-        _rayOffsets[0] = new Vector2(GROUND_CHECK_LEFT_OFFSET, 0f);
-        _rayOffsets[1] = Vector2.zero;
-        _rayOffsets[2] = new Vector2(GROUND_CHECK_RIGHT_OFFSET, 0f);
-
-        for (int i = 0; i < RAY_COUNT; i++)
-        {
-            _groundCheckRays[i] = new Ray2D(Vector2.zero, Vector2.down);
-        }
-    }
-
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         CheckGrounded();
     }
 
-    private void CheckGrounded()
+    void CheckGrounded()
     {
         IsGrounded = false;
-        Vector2 currentPosition = transform.position;
-        
-        for (int i = 0; i < _groundCheckRays.Length; i++)
+        Vector2 basePos = (Vector2)transform.position + originOffset;
+
+        for (int i = 0; i < offsets.Length; i++)
         {
-            _groundCheckRays[i].origin = currentPosition + _rayOffsets[i];
-            
-            bool hitGround = Physics2D.Raycast(
-                _groundCheckRays[i].origin, 
-                Vector2.down, 
-                GROUND_CHECK_DISTANCE, 
-                _groundMask
-            );
-                
-            if (hitGround)
+            Vector2 origin = basePos + offsets[i];
+            RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.down, checkDistance, groundLayer);
+            if (hit.collider != null)
             {
                 IsGrounded = true;
-                
-                if (showDebugRays)
-                {
-                    Debug.DrawRay(
-                        _groundCheckRays[i].origin, 
-                        Vector2.down * GROUND_CHECK_DISTANCE, 
-                        Color.red
-                    );
-                }
             }
-            else if (showDebugRays)
+
+            if (showDebugRays)
             {
-                Debug.DrawRay(
-                    _groundCheckRays[i].origin, 
-                    Vector2.down * GROUND_CHECK_DISTANCE, 
-                    Color.green
-                );
+                Debug.DrawRay(origin, Vector2.down * checkDistance, hit.collider != null ? Color.green : Color.red);
             }
         }
     }

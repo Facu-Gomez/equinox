@@ -7,7 +7,6 @@ public class Interruptor : MonoBehaviour
     private BoxCollider2D hitbox;
     [SerializeField] public MonoBehaviour objetoActivable;
      private bool jugadorDentro = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         hitbox = GetComponent<BoxCollider2D>();
@@ -17,7 +16,6 @@ public class Interruptor : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
          if (jugadorDentro && Input.GetKeyDown(KeyCode.E))

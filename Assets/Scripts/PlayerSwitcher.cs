@@ -3,12 +3,12 @@ using UnityEngine;
 public class PlayerSwitcher : MonoBehaviour
 {
     public GameObject mundoOcaso;
-    public GameObject mundoLuz;
+    public GameObject mundoAlba;
     private GameObject mundoActivo;
 
     void Start()
     {
-        mundoActivo = mundoLuz;
+        mundoActivo = mundoAlba;
         mundoOcaso.SetActive(false);
     }
 
@@ -22,17 +22,17 @@ public class PlayerSwitcher : MonoBehaviour
 
     void Cambiar()
     {
-        if (mundoActivo == mundoLuz)
+        if (mundoActivo == mundoAlba)
         {
-            mundoLuz.SetActive(false);
+            mundoAlba.SetActive(false);
             mundoOcaso.SetActive(true);
             mundoActivo = mundoOcaso;
         }
         else
         {
-            mundoLuz.SetActive(true);
+            mundoAlba.SetActive(true);
             mundoOcaso.SetActive(false);
-            mundoActivo = mundoLuz;
+            mundoActivo = mundoAlba;
         }
     }
 }
