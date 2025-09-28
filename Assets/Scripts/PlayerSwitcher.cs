@@ -6,10 +6,12 @@ public class PlayerSwitcher : MonoBehaviour
     public GameObject mundoAlba;
     private GameObject mundoActivo;
 
+    private CameraFollow cameraFollow;
     void Start()
     {
         mundoActivo = mundoAlba;
         mundoOcaso.SetActive(false);
+        cameraFollow = Camera.main.GetComponent<CameraFollow>();
     }
 
     void Update()
@@ -27,6 +29,7 @@ public class PlayerSwitcher : MonoBehaviour
             mundoAlba.SetActive(false);
             mundoOcaso.SetActive(true);
             mundoActivo = mundoOcaso;
+
         }
         else
         {
@@ -34,5 +37,17 @@ public class PlayerSwitcher : MonoBehaviour
             mundoOcaso.SetActive(false);
             mundoActivo = mundoAlba;
         }
+         cameraFollow.target = BuscarHijoPorTag(mundoActivo, "Player").transform;
     }
+    public GameObject BuscarHijoPorTag(GameObject padre, string tag)
+{
+    foreach (Transform hijo in padre.GetComponentsInChildren<Transform>(true))
+    {
+        if (hijo.CompareTag(tag))
+        {
+            return hijo.gameObject;
+        }
+    }
+    return null; // No encontrado
+}
 }
