@@ -69527,6 +69527,24 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1094403937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5303811720337624162, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
+  m_PrefabInstance: {fileID: 2084955804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1094403944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094403937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escena: {fileID: 102900000, guid: 47b50087566585d4bbb467c4bea2763f, type: 3}
 --- !u!1 &1118818521
 GameObject:
   m_ObjectHideFlags: 0
@@ -70461,10 +70479,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZonaCaer (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1226157194172509936, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5303811720337624162, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1900696347}
   m_SourcePrefab: {fileID: 100100000, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
 --- !u!1 &1490211330
 GameObject:
@@ -94135,6 +94157,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1900696340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5303811720337624162, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
+  m_PrefabInstance: {fileID: 1467746877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1900696347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900696340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escena: {fileID: 102900000, guid: 47b50087566585d4bbb467c4bea2763f, type: 3}
 --- !u!1 &1915658703
 GameObject:
   m_ObjectHideFlags: 0
@@ -94881,10 +94921,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZonaCaer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1226157194172509936, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5303811720337624162, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1094403944}
   m_SourcePrefab: {fileID: 100100000, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
 --- !u!1 &2102701220
 GameObject:
