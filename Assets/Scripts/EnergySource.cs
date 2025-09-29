@@ -46,16 +46,21 @@ public class ChargeSource : MonoBehaviour
             }
             else if (!isFullyCharged)
             {
-                promptText.text = currentCharge > 0 ? "Cargando fuente: " + Mathf.RoundToInt(currentCharge) + "%": "Mantener apretado Q para cargar la fuente";
+                promptText.text = currentCharge > 0 ? 
+                    "Cargando fuente: " + Mathf.RoundToInt(currentCharge) + "%" 
+                    : "Mantener apretado Q para cargar la fuente";
+            }
+            else
+            {
+                promptText.text = "Fuente cargada";
             }
         }
         else
         {
-            Debug.Log("Fuera de rango");
             if (!isFullyCharged)
                 currentCharge = 0f;
 
-            promptText.text = isFullyCharged ? "Fuente cargada" : "";
+            promptText.text = "";
         }
     }
 }
