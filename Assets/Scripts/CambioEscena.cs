@@ -1,18 +1,18 @@
+using System;
 using Unity.VisualScripting;
 using UnityEditor;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class CambioEscena : MonoBehaviour
 {
-    [SerializeField] private SceneAsset escena;
+    [SerializeField] private String escena;
 
     // Llama a esta función desde el botón
     public void CambiarEscena()
     {
         if (escena != null)
         {
-            SceneManager.LoadScene(escena.name);
+            SceneManager.LoadScene(escena);
         }
         else
         {

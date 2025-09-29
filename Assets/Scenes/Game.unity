@@ -69544,7 +69544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: {fileID: 102900000, guid: 47b50087566585d4bbb467c4bea2763f, type: 3}
+  escena: Derrota
 --- !u!1 &1118818521
 GameObject:
   m_ObjectHideFlags: 0
@@ -93634,8 +93634,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1
-  m_fontSizeBase: 1
+  m_fontSize: 0.4
+  m_fontSizeBase: 0.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -94174,7 +94174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: {fileID: 102900000, guid: 47b50087566585d4bbb467c4bea2763f, type: 3}
+  escena: Derrota
 --- !u!1 &1915658703
 GameObject:
   m_ObjectHideFlags: 0
@@ -95146,7 +95146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: {fileID: 102900000, guid: f01d398a78b5ddf4ea3547f81d06c9b7, type: 3}
+  escena: Victoria
 --- !u!61 &2121105503
 BoxCollider2D:
   m_ObjectHideFlags: 0

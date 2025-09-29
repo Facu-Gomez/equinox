@@ -51,6 +51,7 @@ public class ChargeSource : MonoBehaviour
         }
         else
         {
+            Debug.Log("Fuera de rango");
             if (!isFullyCharged)
                 currentCharge = 0f;
 
