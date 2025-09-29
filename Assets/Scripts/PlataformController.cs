@@ -14,6 +14,7 @@ public class PlatformController : MonoBehaviour
 
     void Update()
     {
+     
         if (debeBajar && PlayerSwitcher.MundoActual == mundoDeEsta && !estaBajando)
         {
             StartCoroutine(Bajar());
@@ -22,7 +23,9 @@ public class PlatformController : MonoBehaviour
 
     public void BajarPlataforma()
     {
+
         debeBajar = true;
+           Debug.Log("Mundo actual: " + PlayerSwitcher.MundoActual + ", Mundo de esta plataforma: " + mundoDeEsta + ", Debe bajar: " + debeBajar + ", Está bajando: " + estaBajando);
     }
 
     private IEnumerator Bajar()

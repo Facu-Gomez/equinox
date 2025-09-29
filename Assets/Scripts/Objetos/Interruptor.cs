@@ -18,7 +18,7 @@ public class Interruptor : MonoBehaviour
 
     void Update()
     {
-         if (jugadorDentro && Input.GetKeyDown(KeyCode.E))
+         if (jugadorDentro && Input.GetKeyDown(KeyCode.Q))
         {
             if (objetoActivable is IDActivable activable)
             {
