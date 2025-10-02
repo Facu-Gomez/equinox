@@ -7,3 +7,5 @@
 [Uu]serSettings/
 /BuildWeb
 *.zip
+/Assets/Resources
+/UserSettings
