@@ -830,7 +830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
+  escena: Game
 --- !u!114 &1061335732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -957,7 +957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escena: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
+  escena: 
 --- !u!114 &1282009611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1299,7 +1299,6 @@ GameObject:
   - component: {fileID: 2037922709}
   - component: {fileID: 2037922708}
   - component: {fileID: 2037922707}
-  - component: {fileID: 2037922706}
   - component: {fileID: 2037922705}
   m_Layer: 5
   m_Name: Salir
@@ -1339,19 +1338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d610df9e82a350841ad16c30ee2205c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2037922706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2037922703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  escena: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
 --- !u!114 &2037922707
 MonoBehaviour:
   m_ObjectHideFlags: 0

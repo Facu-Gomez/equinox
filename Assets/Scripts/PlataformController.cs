@@ -1,30 +1,45 @@
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
 public class PlatformController : MonoBehaviour
 {
-    public float velocidadBajada = 2f;
-    public float distanciaBajada = 5f;
+    public enum Mundo { Alba, Ocaso }
+    public Mundo mundoDeEsta;
 
-    private bool bajar = false;
-    private Vector3 posicionInicial;
-    private Vector3 posicionFinal;
+    public float bajarDistancia = 3.5f;
+    public float velocidad = 2f;
 
-    void Start()
-    {
-        posicionInicial = transform.position;
-        posicionFinal = posicionInicial + Vector3.down * distanciaBajada;
-    }
+    private bool debeBajar = false;
+    private bool estaBajando = false;
 
     void Update()
     {
-        if (bajar)
+     
+        if (debeBajar && PlayerSwitcher.MundoActual == mundoDeEsta && !estaBajando)
         {
-            transform.position = Vector3.MoveTowards(transform.position, posicionFinal, velocidadBajada * Time.deltaTime);
+            StartCoroutine(Bajar());
         }
     }
 
     public void BajarPlataforma()
     {
-        bajar = true;
+
+        debeBajar = true;
+           Debug.Log("Mundo actual: " + PlayerSwitcher.MundoActual + ", Mundo de esta plataforma: " + mundoDeEsta + ", Debe bajar: " + debeBajar + ", Está bajando: " + estaBajando);
+    }
+
+    private IEnumerator Bajar()
+    {
+        estaBajando = true;
+        Vector3 inicio = transform.position;
+        Vector3 destino = inicio + Vector3.down * bajarDistancia;
+
+        float t = 0f;
+        while (t < 1f)
+        {
+            t += Time.deltaTime * velocidad / bajarDistancia;
+            transform.position = Vector3.Lerp(inicio, destino, t);
+            yield return null;
+        }
     }
 }
