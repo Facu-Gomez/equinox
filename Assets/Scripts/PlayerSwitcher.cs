@@ -31,21 +31,29 @@ public class PlayerSwitcher : MonoBehaviour
     {
         if (mundoActivo == mundoAlba)
         {
-            mundoAlba.SetActive(false);
-            mundoOcaso.SetActive(true);
-            mundoActivo = mundoOcaso;
-            MundoActual = PlatformController.Mundo.Ocaso;
+            CambiarMundo(PlatformController.Mundo.Ocaso);
         }
         else
         {
-            mundoAlba.SetActive(true);
-            mundoOcaso.SetActive(false);
-            mundoActivo = mundoAlba;
-            MundoActual = PlatformController.Mundo.Alba;
+            CambiarMundo(PlatformController.Mundo.Alba);
         }
+    }
+
+    public void CambiarMundo(PlatformController.Mundo nuevoMundo)
+    {
+        MundoActual = nuevoMundo;
+
+        bool esAlba = (nuevoMundo == PlatformController.Mundo.Alba);
+
+        mundoAlba.SetActive(esAlba);
+        mundoOcaso.SetActive(!esAlba);
+        mundoActivo = esAlba ? mundoAlba : mundoOcaso;
 
         cameraFollow.target = BuscarHijoPorTag(mundoActivo, "Player").transform;
+
+        WorldEventManager.Instance?.MundoCambiado(nuevoMundo);
     }
+
 
     public GameObject BuscarHijoPorTag(GameObject padre, string tag)
     {
