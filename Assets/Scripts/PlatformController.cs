@@ -14,12 +14,14 @@ public class PlatformController : MonoBehaviour
     [Tooltip("Si está activado, la plataforma irá y volverá indefinidamente. Si no, se moverá una vez y se detendrá.")]
     public bool idaYVuelta = true;
 
-    [Header("Mundo de esta plataforma")]
+    [Tooltip("Si está activada, la plataforma comenzará a moverse al iniciar el juego.")]
+    public bool estaActiva = false;
+
+    [Tooltip("Define a qué mundo pertenece esta plataforma.")]
     public Mundo mundoDeEsta;
 
     private Vector3 posicionInicial;
     private Vector3 posicionDestino;
-    private bool moviendo = false;
     private bool yendo = true;
 
     void Start()
@@ -32,7 +34,7 @@ public class PlatformController : MonoBehaviour
 
     void Update()
     {
-        if (moviendo)
+        if (estaActiva)
             Mover();
     }
 
@@ -45,11 +47,11 @@ public class PlatformController : MonoBehaviour
         {
             if (idaYVuelta)
             {
-                yendo = !yendo; // cambia de dirección
+                yendo = !yendo;
             }
             else
             {
-                moviendo = false; // se detiene al llegar
+                estaActiva = false; // se detiene si no es ida y vuelta
             }
         }
     }
@@ -59,7 +61,7 @@ public class PlatformController : MonoBehaviour
     /// </summary>
     public void Activar()
     {
-        moviendo = true;
+        estaActiva = true;
     }
 
     /// <summary>
@@ -67,7 +69,7 @@ public class PlatformController : MonoBehaviour
     /// </summary>
     public void Detener()
     {
-        moviendo = false;
+        estaActiva = false;
     }
 
     /// <summary>
@@ -76,7 +78,7 @@ public class PlatformController : MonoBehaviour
     public void ReiniciarPosicion()
     {
         transform.position = posicionInicial;
-        moviendo = false;
+        estaActiva = false;
         yendo = true;
     }
 }
