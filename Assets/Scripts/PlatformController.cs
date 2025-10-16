@@ -5,80 +5,90 @@ public class PlatformController : MonoBehaviour
     public enum DireccionMovimiento { Horizontal, Vertical }
     public enum Mundo { Alba, Ocaso }
 
-    [Header("Movimiento")]
-    public DireccionMovimiento direccion = DireccionMovimiento.Vertical;
+    [Header("Configuración de movimiento")]
+    public DireccionMovimiento direccion = DireccionMovimiento.Horizontal;
     public float distancia = 3f;
     public float velocidad = 2f;
-
-    [Header("Comportamiento")]
-    [Tooltip("Si está activado, la plataforma irá y volverá indefinidamente. Si no, se moverá una vez y se detendrá.")]
-    public bool idaYVuelta = true;
-
-    [Tooltip("Si está activada, la plataforma comenzará a moverse al iniciar el juego.")]
+    public bool idaYVuelta = false;
     public bool estaActiva = false;
-
-    [Tooltip("Define a qué mundo pertenece esta plataforma.")]
     public Mundo mundoDeEsta;
 
+    [Header("Opcional: requerir ambos jugadores")]
+    public bool requireBothPlayers = false;
+    public Transform jugadorAlba;
+    public Transform jugadorOcaso;
+    public float rangoDeteccion = 1f;
+
     private Vector3 posicionInicial;
-    private Vector3 posicionDestino;
-    private bool yendo = true;
+    private bool moviendoHaciaDestino = true;
+    private bool ambosSobre = false;
 
     void Start()
     {
         posicionInicial = transform.position;
-        posicionDestino = direccion == DireccionMovimiento.Horizontal
-            ? posicionInicial + Vector3.right * distancia
-            : posicionInicial + Vector3.up * distancia;
     }
 
     void Update()
     {
-        if (estaActiva)
-            Mover();
+        if (!estaActiva)
+            return;
+
+        if (requireBothPlayers)
+        {
+            ambosSobre = EstanAmbosSobre();
+            if (!ambosSobre)
+                return;
+        }
+
+        MoverPlataforma();
     }
 
-    void Mover()
+    void MoverPlataforma()
     {
-        Vector3 destino = yendo ? posicionDestino : posicionInicial;
-        transform.position = Vector3.MoveTowards(transform.position, destino, velocidad * Time.deltaTime);
+        Vector3 destino;
+
+        if (direccion == DireccionMovimiento.Horizontal)
+            destino = posicionInicial + new Vector3(distancia, 0, 0);
+        else
+            destino = posicionInicial + new Vector3(0, distancia, 0);
+
+        if (moviendoHaciaDestino)
+            transform.position = Vector3.MoveTowards(transform.position, destino, velocidad * Time.deltaTime);
+        else
+            transform.position = Vector3.MoveTowards(transform.position, posicionInicial, velocidad * Time.deltaTime);
 
         if (Vector3.Distance(transform.position, destino) < 0.01f)
         {
             if (idaYVuelta)
-            {
-                yendo = !yendo;
-            }
+                moviendoHaciaDestino = false;
             else
-            {
-                estaActiva = false; // se detiene si no es ida y vuelta
-            }
+                estaActiva = false;
+        }
+
+        if (idaYVuelta && Vector3.Distance(transform.position, posicionInicial) < 0.01f && !moviendoHaciaDestino)
+        {
+            moviendoHaciaDestino = true;
         }
     }
 
-    /// <summary>
-    /// Activa el movimiento de la plataforma.
-    /// </summary>
+    bool EstanAmbosSobre()
+    {
+        if (jugadorAlba == null || jugadorOcaso == null)
+            return false;
+
+        bool albaSobre = Vector2.Distance(jugadorAlba.position, transform.position) < rangoDeteccion;
+        bool ocasoSobre = Vector2.Distance(jugadorOcaso.position, transform.position) < rangoDeteccion;
+
+        return albaSobre && ocasoSobre;
+    }
+
     public void Activar()
     {
         estaActiva = true;
     }
 
-    /// <summary>
-    /// Detiene el movimiento de la plataforma manualmente.
-    /// </summary>
     public void Detener()
     {
         estaActiva = false;
-    }
-
-    /// <summary>
-    /// Resetea la posición a la inicial (opcional, útil para debugging).
-    /// </summary>
-    public void ReiniciarPosicion()
-    {
-        transform.position = posicionInicial;
-        estaActiva = false;
-        yendo = true;
     }
 }

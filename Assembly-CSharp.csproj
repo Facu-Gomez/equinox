@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\PlatformController.cs" />
     <Compile Include="Assets\Scripts\Objetos\IDActivable.cs" />
     <Compile Include="Assets\Scripts\WorldFilterSwitcher.cs" />
+    <Compile Include="Assets\Scripts\DualCheck.cs" />
     <Compile Include="Assets\Scripts\Lever.cs" />
     <Compile Include="Assets\Scripts\Objetos\Interruptor.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />
