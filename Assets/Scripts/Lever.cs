@@ -30,13 +30,15 @@ public class Lever : MonoBehaviour
         { 
             if (uiIndicator != null) uiIndicator.SetActive(false); 
         } 
-    } 
-    void ToggleLever() 
-    { 
-        if (isActivated) return; 
-        isActivated = true; 
-        Debug.Log("Palanca activada!"); 
-        onLeverActivated?.Invoke(); 
-        if (uiIndicator != null) uiIndicator.SetActive(false); 
-    } 
+    }
+    void ToggleLever()
+    {
+        if (isActivated) return;
+        isActivated = true;
+        Debug.Log("Palanca activada!");
+        onLeverActivated?.Invoke();
+
+        if (uiIndicator != null) uiIndicator.SetActive(false);
+    }
+
 }
