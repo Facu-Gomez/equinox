@@ -35,7 +35,19 @@ public class ChargeSource : MonoBehaviour
                 {
                     currentCharge = 100f;
                     isFullyCharged = true;
+  foreach (var plataforma in plataformas)
 
+
+                    {
+
+
+                        if (plataforma != null)
+
+
+                            plataforma.Activar();
+
+
+                    }
                     if (promptText != null)
                         promptText.text = "Fuente cargada";
                 }
