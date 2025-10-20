@@ -68,11 +68,13 @@
     <Compile Include="Assets\Scripts\Lever.cs" />
     <Compile Include="Assets\Scripts\Objetos\Interruptor.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\LevelsHub.cs" />
     <Compile Include="Assets\SalirDelJuego.cs" />
     <Compile Include="Assets\Scripts\EnergySource.cs" />
     <Compile Include="Assets\Scripts\WorldEventManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerSwitcher.cs" />
+    <Compile Include="Assets\Scripts\CambioEscenaHub.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\CambioEscena.cs" />
     <Compile Include="Assets\Scripts\Objetos\CambiaPantalla.cs" />
