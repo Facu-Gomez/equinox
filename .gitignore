@@ -1,11 +1,17 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]serSettings/
+/Library
+/Temp
+
+/Logs
+/Logs
+Logs/shadercompiler-UnityShaderCompiler.exe-0.log
+*.log
+/.vscode
+BuildWeb.zip
 /BuildWeb
-*.zip
-/Assets/Resources
-/UserSettings
+BuildWebAhora si.zip
+BuildWebESTE SI.zip
+EquinoxBuildWeb.zip
+Assembly-CSharp.csproj
+/Logs
+UserSettings/Layouts/default-6000.dwlt
+UserSettings/Search.index
