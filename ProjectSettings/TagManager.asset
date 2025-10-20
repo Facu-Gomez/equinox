@@ -4,19 +4,16 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Suelo
-  - Player2
-  - Puente
-  - PuenteTrigger
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - suelo
+  - Ground
   - Water
   - UI
-  - Caja
-  - 
+  - Characters
+  - Filtro
   - 
   - 
   - 
