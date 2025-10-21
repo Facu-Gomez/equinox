@@ -16,11 +16,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+     
         rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
+       
         float move = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
 

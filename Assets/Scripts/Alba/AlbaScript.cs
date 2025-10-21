@@ -1,86 +1,47 @@
-using UnityEditor.SearchService;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float velocidad = 8f;
-
-    public float fuerzaSalto = 10f;
-    public float longitudRaycast = 0.1f;
-    public LayerMask capaSuelo;
-
-    private bool enSuelo;
     private PlayerDash playerDash;
-    
-    private float movimientoHorizontal;
-    public float MovimientoHorizontal => movimientoHorizontal;
+    [Header("Movimiento")]
+    public float moveSpeed = 5f;
+
+    [Header("Salto")]
+    public float jumpForce = 7f;                 
+    public Transform groundCheck;                
+    public float groundCheckRadius = 0.2f;       
+    public LayerMask groundLayer;                
 
     private Rigidbody2D rb;
-    public GameObject Player;
+    private bool isGrounded;
 
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       rb = GetComponent<Rigidbody2D>();
-       playerDash = GetComponent<PlayerDash>(); 
+        playerDash = GetComponent<PlayerDash>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        movimientoHorizontal = Input.GetAxisRaw("Horizontal");
-        Player.transform.Translate(movimientoHorizontal * velocidad * Time.deltaTime, 0, 0);
+        if (playerDash.IsDashing)
+            return;
+        float move = Input.GetAxisRaw("Horizontal");
+        rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
 
-        if (!playerDash.IsDashing)
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
-       
-        
-        Jump();
-        }
-
-
-        RaycastHit2D hit = Physics2D.Raycast(transform.position,Vector2.down, longitudRaycast,capaSuelo);
-        enSuelo = hit.collider != null;
-
-       
-    }
-
-    private void  FixedUpdate()
-    {
-
-        if (!playerDash.IsDashing) 
-        { 
-        Move();
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 
-    void OnDrawGizmos()
+    void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * longitudRaycast);
-    }
-
-    private void Jump()
-    {
-        if (enSuelo && Input.GetKeyDown(KeyCode.Space))
-
+        if (groundCheck != null)
         {
-            rb.AddForce(new Vector2(0f, fuerzaSalto), ForceMode2D.Impulse);
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
-
-    private void Move()
-    {
-        rb.linearVelocity = new Vector2 (movimientoHorizontal * velocidad, rb.linearVelocity.y);
-        
-        
-        //Player.transform.Translate(movimientoHorizontal * velocidad * Time.deltaTime, 0, 0);
-    }
-
-    
 }
-
-
-

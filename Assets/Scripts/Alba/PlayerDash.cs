@@ -6,7 +6,7 @@ public class PlayerDash : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private Rigidbody2D rb;
-    private PlayerMove player;
+    [SerializeField]private PlayerMove player;
     private float baseGravity;
 
 
@@ -16,7 +16,7 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private float timeCanDash = 1f;
 
     private bool isDashing;
-    private bool canDash = true;
+    private bool canDash = false;
 
 
     public bool IsDashing => isDashing;
@@ -24,13 +24,14 @@ public class PlayerDash : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        player = GetComponent<PlayerMove>();
+       
         baseGravity = rb.gravityScale;
     }
 
     void Start()
     {
         
+         
     }
 
     // Update is called once per frame
@@ -38,22 +39,31 @@ public class PlayerDash : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
+          
+            Debug.Log("Dash");
             StartCoroutine(Dash());
 
 
         }
 
     }
-
+    
     private IEnumerator Dash()
     {
-       if (player.MovimientoHorizontal != 0 && canDash)
+       if (rb.GetRelativePointVelocity(Vector2.zero) != Vector2.zero && canDash)
         {
 
+            float move = Input.GetAxisRaw("Horizontal");
+            Debug.Log(" " + move + " ");
+            
+    
+            Debug.Log(" " + dashForce);
+       
             isDashing = true;
             canDash = false;
             rb.gravityScale = 0f;
-            rb.linearVelocity = new Vector2(player.MovimientoHorizontal * dashForce, 0f);
+
+            rb.linearVelocity = new Vector2(move * player.moveSpeed * dashForce, 0f);
 
             yield return new WaitForSeconds(dashingTime);
             isDashing = false;
@@ -68,8 +78,16 @@ public class PlayerDash : MonoBehaviour
 
 
     }
+public void ActivarDash()
+    {
+        canDash = true;
+       
+    }
+public void DesactivarDash()
+    {
+        canDash = false;
 
-
+    }
 
 
 

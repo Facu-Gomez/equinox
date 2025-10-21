@@ -696,6 +696,10 @@ PrefabInstance:
       propertyPath: newBox
       value: 
       objectReference: {fileID: 6452344599139855554, guid: 70a1752ee3e22424cb8e88237d007e1e, type: 3}
+    - target: {fileID: 8382386940373692673, guid: 70a1752ee3e22424cb8e88237d007e1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
