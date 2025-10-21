@@ -13,7 +13,7 @@ public class PlatformController : MonoBehaviour
     public bool estaActiva = false;
     public Mundo mundoDeEsta;
 
-    [Header("Opcional: requerir ambos jugadores")]
+    [Header("Requiere ambos jugadores?")]
     public bool requireBothPlayers = false;
     public Transform jugadorAlba;
     public Transform jugadorOcaso;

@@ -7,7 +7,6 @@ public class CambioEscena : MonoBehaviour
 {
     [SerializeField] private String escena;
 
-    // Llama a esta función desde el botón
     public void CambiarEscena()
     {
         if (escena != null)
