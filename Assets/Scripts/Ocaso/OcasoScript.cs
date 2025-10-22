@@ -67,7 +67,7 @@ public class OcasoScript : MonoBehaviour
 
         if (puentes.Count >= maxPuentes)
         {
-            Debug.Log("Ya tenés el máximo de puentes (" + maxPuentes + "). Esperá a que alguno desaparezca.");
+            Debug.Log("Ya tenï¿½s el mï¿½ximo de puentes (" + maxPuentes + "). Esperï¿½ a que alguno desaparezca.");
             return;
         }
 

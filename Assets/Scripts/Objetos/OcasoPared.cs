@@ -21,7 +21,7 @@ public class OcasoPared : MonoBehaviour
     /// <param name="other">The Collision2D data associated with this collision.</param>
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.name == "Ocaso")
+        if (other.gameObject.name == "Ocaso" && !other.gameObject.GetComponent<OcasoComportamientov2>().IluminadoPropiedad)
         {
             if (Input.GetKey(KeyCode.F))
             {

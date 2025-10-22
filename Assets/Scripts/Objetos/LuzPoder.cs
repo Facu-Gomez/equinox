@@ -25,7 +25,7 @@ public class LuzPoder : MonoBehaviour
                     collision.gameObject.GetComponent<PlayerDash>().ActivarDash();
                     break;
                 case "Ocaso":
-                  Debug.Log("Ocaso entra en luz de poder");
+                  collision.gameObject.GetComponent<OcasoComportamientov2>().IluminadoPropiedad = true;
                     break;
             }
         }
@@ -38,7 +38,7 @@ public class LuzPoder : MonoBehaviour
                     collision.gameObject.GetComponent<PlayerDash>().DesactivarDash();
                     break;
                 case "Ocaso":
-                  Debug.Log("Ocaso sale de luz de poder");
+                  collision.gameObject.GetComponent<OcasoComportamientov2>().IluminadoPropiedad = false;
                     break;
             }
     }
