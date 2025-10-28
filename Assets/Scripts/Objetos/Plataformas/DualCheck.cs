@@ -2,6 +2,8 @@
 
 public class DualCheck : MonoBehaviour
 {
+    //Se le coloca a un objeto vacio,con 2 referencias a 2 plataformas en distintos mundos,cuando ambos personajes se postran sobre las 2 plataformás
+    // y la fuente de energia esta cargada,ambas plataformas se activan y comienzan a moverse
     [Header("Referencias")]
     public ChargeSource fuenteDeEnergia;
     public PlatformController plataformaAlba;

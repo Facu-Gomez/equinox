@@ -2,6 +2,7 @@
 
 public class PlatformController : MonoBehaviour
 {
+    //Controlador de una plataforma general altamente personalizable
     public enum DireccionMovimiento { Horizontal, Vertical }
     public enum Mundo { Alba, Ocaso }
 

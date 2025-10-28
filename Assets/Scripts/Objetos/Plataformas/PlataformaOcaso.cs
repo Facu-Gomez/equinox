@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlataformaOcaso : MonoBehaviour
 {
-    [SerializeField]private OcasoComportamientov2 ocasoComportamientov2;
+    //Este script se le coloca a la plataforma que ocaso genera ,para poder activarla y desactivarla
+    //Aclaracion:No se desactiva el objeto,ya que si se desactivara completamente,se nesesitaria de otro script para activarlo,con referencia a este constantemente
+        [SerializeField]private OcasoComportamientov2 ocasoComportamientov2;
     private Rigidbody2D rb;
     private BoxCollider2D hitbox;
     private SpriteRenderer spriteRenderer;
