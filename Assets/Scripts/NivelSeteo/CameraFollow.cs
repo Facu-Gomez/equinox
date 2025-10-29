@@ -5,21 +5,21 @@ public class CameraFollow : MonoBehaviour
     [Header("Objetivo a seguir")]
     public Transform target; // El personaje (Player)
 
-    [Header("Configuración")]
+    [Header("Configuraciï¿½n")]
     public float smoothSpeed = 5f; // Velocidad de suavizado
-    public Vector3 offset;         // Desplazamiento de la cámara respecto al jugador
+    public Vector3 offset;         // Desplazamiento de la cï¿½mara respecto al jugador
 
     void LateUpdate()
     {
         if (target == null) return;
 
-        // Posición deseada con el offset
+        // Posiciï¿½n deseada con el offset
         Vector3 desiredPosition = target.position + offset;
 
-        // Interpolación suave
+        // Interpolaciï¿½n suave
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed * Time.deltaTime);
 
-        // Aplicar posición
+        // Aplicar posiciï¿½n
         transform.position = new Vector3(smoothedPosition.x, smoothedPosition.y, transform.position.z);
     }
 }

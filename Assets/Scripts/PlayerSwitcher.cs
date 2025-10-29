@@ -1,21 +1,23 @@
 using UnityEngine;
-
+using UnityEngine.Rendering.Universal;
 public class PlayerSwitcher : MonoBehaviour
 {
     public GameObject mundoOcaso;
     public GameObject mundoAlba;
     private GameObject mundoActivo;
-
+    private  UniversalAdditionalCameraData cameraData;
     private CameraFollow cameraFollow;
+    private CameraFollow cameraOverlay;
 
     public static PlatformController.Mundo MundoActual { get; private set; }
 
     void Start()
     {
+        cameraData = Camera.main.GetUniversalAdditionalCameraData();
         mundoActivo = mundoAlba;
         mundoOcaso.SetActive(false);
         cameraFollow = Camera.main.GetComponent<CameraFollow>();
-
+        cameraOverlay = cameraData.cameraStack[0].GetComponent<CameraFollow>();
         MundoActual = PlatformController.Mundo.Alba;
     }
 
@@ -50,7 +52,7 @@ public class PlayerSwitcher : MonoBehaviour
         mundoActivo = esAlba ? mundoAlba : mundoOcaso;
 
         cameraFollow.target = BuscarHijoPorTag(mundoActivo, "Player").transform;
-
+        cameraOverlay.target = BuscarHijoPorTag(mundoActivo, "Player").transform;
         WorldEventManager.Instance?.MundoCambiado(nuevoMundo);
     }
 
