@@ -1360,7 +1360,7 @@ GameObject:
   - component: {fileID: 223211741}
   - component: {fileID: 223211743}
   - component: {fileID: 223211742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1460,6 +1460,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &234765163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 234765164}
+  - component: {fileID: 234765165}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &234765164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234765163}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1620301607}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &234765165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234765163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 0}
 --- !u!1 &258795132 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6841663742491480969, guid: c89bd0c6bf958754583d9495b34a37fc, type: 3}
@@ -1747,7 +1796,7 @@ Transform:
   m_GameObject: {fileID: 414316622}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 10.5, z: 0}
+  m_LocalPosition: {x: -2, y: 11.23, z: 0}
   m_LocalScale: {x: 4, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -68994,13 +69043,13 @@ GameObject:
   - component: {fileID: 808688357}
   - component: {fileID: 808688356}
   - component: {fileID: 808688355}
-  m_Layer: 5
-  m_Name: Camara Pantalla
+  m_Layer: 0
+  m_Name: CameraCharacters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &808688355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69013,10 +69062,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
-  m_RenderShadows: 1
+  m_RenderShadows: 0
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
+  m_CameraType: 1
   m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
@@ -69052,7 +69101,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808688354}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &808688357
 Camera:
   m_ObjectHideFlags: 0
@@ -69062,7 +69111,7 @@ Camera:
   m_GameObject: {fileID: 808688354}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -69092,7 +69141,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 224
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -69101,7 +69150,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!224 &808688358
@@ -69112,7 +69161,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808688354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69362,7 +69411,7 @@ GameObject:
   - component: {fileID: 924603854}
   - component: {fileID: 924603858}
   m_Layer: 0
-  m_Name: CamaraJugador
+  m_Name: CameraWorld
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69384,14 +69433,15 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras: []
+  m_Cameras:
+  - {fileID: 808688357}
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 31
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -69459,7 +69509,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 31
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -69789,7 +69839,7 @@ GameObject:
   - component: {fileID: 1070271543}
   - component: {fileID: 1070271544}
   - component: {fileID: 1070271541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ocaso
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -69805,7 +69855,7 @@ Transform:
   m_GameObject: {fileID: 1070271538}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.77, y: 7.81, z: 0}
+  m_LocalPosition: {x: -4.77, y: 7.81, z: 90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -69875,9 +69925,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -506105753
+  m_SortingLayer: 1
+  m_SortingOrder: 20
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -69962,24 +70012,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &1094403937 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5303811720337624162, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
-  m_PrefabInstance: {fileID: 2084955804}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1094403944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094403937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  escena: Derrota
 --- !u!1001 &1175844063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70087,7 +70119,7 @@ GameObject:
   - component: {fileID: 1185516024}
   - component: {fileID: 1185516026}
   - component: {fileID: 1185516025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70684,10 +70716,7 @@ PrefabInstance:
     - {fileID: 1226157194172509936, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5303811720337624162, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1900696347}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
 --- !u!1 &1490211330
 GameObject:
@@ -93698,24 +93727,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8516091888672808078, guid: c5b4c7ba377f99a49bf86d48c7a76170, type: 3}
   m_PrefabInstance: {fileID: 1559169295}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1900696340 stripped
+--- !u!1 &1620301606
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 5303811720337624162, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
-  m_PrefabInstance: {fileID: 1467746877}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1900696347
-MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900696340}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e357146e0266ef4ca9610129d80c82e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  escena: Derrota
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1620301607}
+  m_Layer: 0
+  m_Name: PostProcessVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620301607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620301606}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.64436, y: -5.33982, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 234765164}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1951354957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93813,6 +93856,7 @@ GameObject:
   - component: {fileID: 1979451544}
   - component: {fileID: 1979451546}
   - component: {fileID: 1979451547}
+  - component: {fileID: 1979451548}
   m_Layer: 0
   m_Name: WorldManager
   m_TagString: Untagged
@@ -93879,6 +93923,23 @@ MonoBehaviour:
   jugadorAlba: {fileID: 2102701221}
   jugadorOcaso: {fileID: 1070271539}
   rangoDeteccion: 1
+--- !u!114 &1979451548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979451542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28bf57952ae04d4683b5d555843bd89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  filtroAlba: {fileID: 11400000, guid: a6305ac88fb040f4caa9befd56ee52d2, type: 2}
+  filtroOcaso: {fileID: 11400000, guid: 8b9b54a6261796648a44342031fb0c8a, type: 2}
+  fadeDuration: 1
+  camaraMundo: {fileID: 924603856}
+  camaraPersonajes: {fileID: 808688357}
 --- !u!1001 &2007178476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93971,6 +94032,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2629439202770313094, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
+      propertyPath: camara
+      value: 
+      objectReference: {fileID: 924603856}
+    - target: {fileID: 2629439202770313094, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
       propertyPath: MundoAlba
       value: 
       objectReference: {fileID: 274281346}
@@ -94030,14 +94095,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1226157194172509936, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5303811720337624162, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1094403944}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88de777040c23d6439b9c4635c56478a, type: 3}
 --- !u!1 &2102701220
 GameObject:
@@ -94052,7 +94113,7 @@ GameObject:
   - component: {fileID: 2102701225}
   - component: {fileID: 2102701226}
   - component: {fileID: 2102701223}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Alba
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -94068,7 +94129,7 @@ Transform:
   m_GameObject: {fileID: 2102701220}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9, y: 2.7, z: 0}
+  m_LocalPosition: {x: -1.9, y: 2.7, z: 90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -94138,8 +94199,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -506105753
+  m_SortingLayer: 1
   m_SortingOrder: 20
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -94450,6 +94511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Derrota
       objectReference: {fileID: 0}
+    - target: {fileID: 7989687304526440547, guid: 852fad98912d27d45a6afed2346f926e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -94468,3 +94533,4 @@ SceneRoots:
   - {fileID: 808688358}
   - {fileID: 8714734935019817766}
   - {fileID: 414316624}
+  - {fileID: 1620301607}

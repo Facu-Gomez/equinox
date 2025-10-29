@@ -1,10 +1,12 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class WorldEventManager : MonoBehaviour
 {
     public static WorldEventManager Instance;
+
+    public event Action<PlatformController.Mundo> OnMundoCambiado;
 
     private Dictionary<PlatformController.Mundo, List<Action>> eventosPendientes =
         new Dictionary<PlatformController.Mundo, List<Action>>()
@@ -43,5 +45,7 @@ public class WorldEventManager : MonoBehaviour
 
             eventosPendientes[nuevoMundo].Clear();
         }
+
+        OnMundoCambiado?.Invoke(nuevoMundo);
     }
 }
