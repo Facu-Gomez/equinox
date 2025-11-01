@@ -21,14 +21,15 @@ public class LuzPoder : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D collision)
     {
-         switch (collision.gameObject.name)
-            {
-                case "Alba":
-                    collision.gameObject.GetComponent<PlayerDash>().DesactivarDash();
-                    break;
-                case "Ocaso":
-                  collision.gameObject.GetComponent<OcasoComportamientov2>().IluminadoPropiedad = false;
-                    break;
-            }
+        switch (collision.gameObject.name)
+        {
+            case "Alba":
+                collision.gameObject.GetComponent<PlayerDash>().DesactivarDash();
+                break;
+            case "Ocaso":
+                collision.gameObject.GetComponent<OcasoComportamientov2>().IluminadoPropiedad = false;
+                break;
+        }
     }
+   
 }
