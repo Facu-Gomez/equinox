@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class Lever : MonoBehaviour
@@ -21,9 +22,17 @@ public class Lever : MonoBehaviour
 
     void Update()
     {
-        if (player == null) return;
+        if (player == null || !player.activeInHierarchy)
+            player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player == null)
+        {
+            Debug.LogWarning("⚠️ No se encontró ningún jugador con tag 'Player'");
+            return;
+        }
 
         float distance = Vector2.Distance(player.transform.position, transform.position);
+        Debug.Log("Distancia al jugador: " + distance);
 
         if (distance <= interactionRange && !isActivated)
         {
@@ -46,11 +55,11 @@ public class Lever : MonoBehaviour
 
         isActivated = true;
         Debug.Log("Palanca activada!");
-
         foreach (var plataforma in plataformasConectadas)
         {
             if (plataforma != null)
                 plataforma.Activar();
+
         }
 
         onLeverActivated?.Invoke();
