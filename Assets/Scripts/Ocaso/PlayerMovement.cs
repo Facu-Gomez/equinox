@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -34,6 +35,23 @@ public class PlayerMovement : MonoBehaviour
         float move = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(move * moveSpeed, rb.linearVelocity.y);
 
+        animator.SetFloat("movement", move* moveSpeed);
+
+        if (move < 0)
+        {
+            transform.localScale = new Vector3(-0.169708f, 0.164098f, 1);
+
+        }
+        if (move > 0) 
+        {
+            transform.localScale = new Vector3(0.169708f, 0.164098f, 1);
+        
+        
+        }
+
+
+
+
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         if (isGrounded && Mathf.Abs(move) > 0.1f)
@@ -53,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             audioSource.PlayOneShot(saltoSound);  
         }
+        animator.SetBool("isGrounded", isGrounded);
     }
 
     void OnDrawGizmosSelected()
