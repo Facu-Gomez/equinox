@@ -9,10 +9,17 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce = 7f;                 
     public Transform groundCheck;                
     public float groundCheckRadius = 0.2f;       
-    public LayerMask groundLayer;                
+    public LayerMask groundLayer;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip pasoSound;
+    public AudioClip saltoSound;
+    public float pasoInterval = 0.4f;
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    private float pasoTimer = 0f;
 
     void Start()
     {
@@ -28,9 +35,22 @@ public class PlayerMovement : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
+        if (isGrounded && Mathf.Abs(move) > 0.1f)
+        {
+            pasoTimer -= Time.deltaTime;
+            if (pasoTimer <= 0f)
+            {
+                audioSource.PlayOneShot(pasoSound);
+                pasoTimer = pasoInterval;
+            }
+        }
+
+
+
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            audioSource.PlayOneShot(saltoSound);  
         }
     }
 

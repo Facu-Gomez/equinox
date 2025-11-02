@@ -7,7 +7,14 @@ public class CambiaPantalla : MonoBehaviour
     [SerializeField] GameObject pantallaCarga;
     [SerializeField] GameObject MundoOcaso;
     [SerializeField] GameObject MundoAlba;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip muerteSound;
+
     CambioEscena cambioEscena;
+
+    
 
     void Start()
     {
@@ -21,6 +28,7 @@ public class CambiaPantalla : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
+        audioSource.PlayOneShot(muerteSound);
         MundoAlba.SetActive(false);
         MundoOcaso.SetActive(false);
         pantallaCarga.SetActive(true);
