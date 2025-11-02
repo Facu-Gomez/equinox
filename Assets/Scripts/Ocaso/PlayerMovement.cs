@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    Animator animator;
     [Header("Movimiento")]
     public float moveSpeed = 5f;
 
@@ -23,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-     
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
