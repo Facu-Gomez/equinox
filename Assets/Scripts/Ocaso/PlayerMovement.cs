@@ -23,13 +23,13 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private float pasoTimer = 0f;
 
-    void Start()
+    protected virtual void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+   protected virtual void Update()
     {
        
         float move = Input.GetAxisRaw("Horizontal");

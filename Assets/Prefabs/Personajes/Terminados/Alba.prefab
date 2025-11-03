@@ -123,8 +123,9 @@ GameObject:
   - component: {fileID: 1347257460835129566}
   - component: {fileID: 2434955881924643365}
   - component: {fileID: 4661911540238437240}
-  - component: {fileID: 7354927106724364601}
   - component: {fileID: 1922451448654105678}
+  - component: {fileID: -5203250265554482057}
+  - component: {fileID: 2503719241788516573}
   m_Layer: 6
   m_Name: Alba
   m_TagString: Player
@@ -280,29 +281,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.6259856, y: 7.3846273}
   m_EdgeRadius: 0
---- !u!114 &7354927106724364601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5310613124919379336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f9f9e388a7bf94a84fcd6f956bb0e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 7
-  groundCheck: {fileID: 8030523624882197484}
-  groundCheckRadius: 0.2
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  audioSource: {fileID: 1311320036494033707}
-  pasoSound: {fileID: 8300000, guid: f4e5edd5b89085f42b201b26196ad9ed, type: 3}
-  saltoSound: {fileID: 8300000, guid: 6648ad59bb84db44199d11a9fbb5bf91, type: 3}
-  pasoInterval: 0.4
 --- !u!95 &1922451448654105678
 Animator:
   serializedVersion: 7
@@ -325,6 +303,46 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-5203250265554482057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310613124919379336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369c996417f884b4bb48385e79246cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMove
+  moveSpeed: 5
+  jumpForce: 7
+  groundCheck: {fileID: 8030523624882197484}
+  groundCheckRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  audioSource: {fileID: 1311320036494033707}
+  pasoSound: {fileID: 8300000, guid: f4e5edd5b89085f42b201b26196ad9ed, type: 3}
+  saltoSound: {fileID: 8300000, guid: 6648ad59bb84db44199d11a9fbb5bf91, type: 3}
+  pasoInterval: 0.4
+--- !u!114 &2503719241788516573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310613124919379336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8667a023668bee64fa0c2a71a4449b5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
+  player: {fileID: -5203250265554482057}
+  dashingTime: 0.2
+  dashForce: 20
+  timeCanDash: 1
+  canDash: 0
 --- !u!1 &8198671985243052468
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,31 +6,31 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 52010d0251575b020b5d55274571094441164a7f7578736375704a64b7b1626f
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 5150000356010f0c0b5c082643740d44144f417d2a7e75687c7d4e60bbb43669
-      flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 5108525103510d5d540b0e7516220d4445161a7e7b7171697a2a4465b6b4666c
-      flags: 0
-    RecentlyUsedSceneGuid-3:
-      value: 0055015656530a5d5d5e5d2343200a44154e1b29282c7f687b7f4f32b7b3303e
-      flags: 0
-    RecentlyUsedSceneGuid-4:
-      value: 05060050520d500a5a08597b42720844144f1d2c2a2971607e7c4f61bab36768
-      flags: 0
-    RecentlyUsedSceneGuid-5:
       value: 5000015f56040c0e54080e76407408444216417f297e7734742b4837e7b3606d
       flags: 0
-    RecentlyUsedSceneGuid-6:
+    RecentlyUsedSceneGuid-1:
       value: 05520354030d0f085b0b5575147209444f164b2e2a2b733175781962e6b3353b
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5150000356010f0c0b5c082643740d44144f417d2a7e75687c7d4e60bbb43669
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 05060050520d500a5a08597b42720844144f1d2c2a2971607e7c4f61bab36768
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 52010d0251575b020b5d55274571094441164a7f7578736375704a64b7b1626f
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 530101555d055f0a0c5b5420427b59444e4e1d7b2a7f22677a7d1b67e4b8623a
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 0055015656530a5d5d5e5d2343200a44154e1b29282c7f687b7f4f32b7b3303e
       flags: 0
     RecentlyUsedSceneGuid-7:
       value: 070304045557510e0c5e5a70417a5e44124f4e7b7a7975677e281b36b1b1633d
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 530101555d055f0a0c5b5420427b59444e4e1d7b2a7f22677a7d1b67e4b8623a
+      value: 5108525103510d5d540b0e7516220d4445161a7e7b7171697a2a4465b6b4666c
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 5b520d0503545b0d0c0c0a2715770748154f4d2c7d7d7e627a7d4a35b4e1646a

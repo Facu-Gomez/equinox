@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class OcasoComportamientov2 : MonoBehaviour
 {
-    private bool Iluminado = false;
+    [SerializeField]private bool Iluminado = false;
     [SerializeField] private float tiempoDeEspera = 4f;
     [SerializeField] private float tiempoRestante;
     [SerializeField] private int maxPuentes = 2;

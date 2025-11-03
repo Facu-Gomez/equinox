@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 1970216162899344563}
   - component: {fileID: 7675238370242272616}
   - component: {fileID: 6279258693486340720}
+  - component: {fileID: 3228741606829637354}
   m_Layer: 6
   m_Name: Ocaso
   m_TagString: Player
@@ -325,6 +326,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3228741606829637354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4018616394442206873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8129c1224082e8e40adcd0d4bbe0f062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OcasoComportamientov2
+  Iluminado: 0
+  tiempoDeEspera: 4
+  tiempoRestante: 0
+  maxPuentes: 2
+  tiempoParaDestruirElViejo: 3
 --- !u!1 &7803151490381809018
 GameObject:
   m_ObjectHideFlags: 0
