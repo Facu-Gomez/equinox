@@ -37259,9 +37259,9 @@ PrefabInstance:
       value: Palanca
       objectReference: {fileID: 0}
     - target: {fileID: 5501840460809334177, guid: b746bc0be62242947ba70c4f42088258, type: 3}
-      propertyPath: plataformasConectadas.Array.size
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 48948cb03c2d1b744ba7bbacfc1a9fd3, type: 3}
     - target: {fileID: 5501840460809334177, guid: b746bc0be62242947ba70c4f42088258, type: 3}
       propertyPath: 'plataformasConectadas.Array.data[0]'
       value: 
@@ -37270,10 +37270,6 @@ PrefabInstance:
       propertyPath: onLeverActivated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1055517751}
-    - target: {fileID: 5501840460809334177, guid: b746bc0be62242947ba70c4f42088258, type: 3}
-      propertyPath: onLeverActivated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Activar
-      objectReference: {fileID: 0}
     - target: {fileID: 9091278251581460653, guid: b746bc0be62242947ba70c4f42088258, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.01908

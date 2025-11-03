@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9091278251581460653}
   - component: {fileID: 7475718237044371106}
   - component: {fileID: 5501840460809334177}
+  - component: {fileID: 3941002057736875878}
   m_Layer: 0
   m_Name: Palanca
   m_TagString: Untagged
@@ -53,6 +54,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -74,6 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -100,15 +104,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b70cd7304d057c47b7230fb6d4c0f96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: f532ac15dbd683f41b12bedffa371fce, type: 3}
   interactionRange: 3
   interactKey: 102
   uiIndicator: {fileID: 0}
+  plataformasConectadas:
+  - {fileID: 0}
   onLeverActivated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6674159617535820552, guid: c89bd0c6bf958754583d9495b34a37fc, type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlatformController, Assembly-CSharp
-        m_MethodName: BajarPlataforma
+        m_MethodName: Activar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -118,3 +125,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!95 &3941002057736875878
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013668369954626398}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4b2b6f0ae7224de4eae230952cdd09bc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

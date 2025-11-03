@@ -1,9 +1,13 @@
 ﻿using System.Linq;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class Lever : MonoBehaviour
 {
+    [SerializeField] Sprite sprite;
+    SpriteRenderer renderer;
+    Animator animador;
     [Header("Configuración")]
     public float interactionRange = 3f;
     public KeyCode interactKey = KeyCode.F;
@@ -16,6 +20,8 @@ public class Lever : MonoBehaviour
 
     void Start()
     {
+        renderer = GetComponent<SpriteRenderer>();
+        animador = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         if (uiIndicator != null) uiIndicator.SetActive(false);
     }
@@ -52,8 +58,10 @@ public class Lever : MonoBehaviour
     void ActivarPalanca()
     {
         if (isActivated) return;
-
+        animador.SetBool("activado", true);
+        renderer.sprite = sprite;
         isActivated = true;
+
         Debug.Log("Palanca activada!");
         foreach (var plataforma in plataformasConectadas)
         {
