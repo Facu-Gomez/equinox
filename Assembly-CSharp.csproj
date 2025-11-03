@@ -55,7 +55,7 @@
     <UnityVersion>6000.2.6f2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -77,8 +77,10 @@
     <Compile Include="Assets\Scripts\NivelSeteo\CambioEscena.cs" />
     <Compile Include="Assets\Scripts\Pruebas\InteraccionCaja.cs" />
     <Compile Include="Assets\Scripts\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\Objetos\GlassFragment.cs" />
     <Compile Include="Assets\Scripts\Objetos\Plataformas\PlatformController.cs" />
     <Compile Include="Assets\Scripts\Objetos\Plataformas\DualCheck.cs" />
+    <Compile Include="Assets\Scripts\Objetos\MirrorFragmentDisplay.cs" />
     <Compile Include="Assets\Scripts\Ocaso\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Objetos\EnergySource.cs" />
     <Compile Include="Assets\Scripts\Alba\PlayerDash.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Assets\Scripts\NivelSeteo\CambiaPantalla.cs" />
     <Compile Include="Assets\Scripts\PlayerSwitcher.cs" />
     <Compile Include="Assets\Scripts\Objetos\Plataformas\PlataformaOcaso.cs" />
+    <Compile Include="Assets\Scripts\FragmentManager.cs" />
     <Compile Include="Assets\Scripts\Ocaso\OcasoComportamientov2.cs" />
     <Compile Include="Assets\Scripts\SalirDelJuego.cs" />
   </ItemGroup>
