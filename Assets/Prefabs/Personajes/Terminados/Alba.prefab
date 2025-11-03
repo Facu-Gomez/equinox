@@ -340,7 +340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerDash
   player: {fileID: -5203250265554482057}
   dashingTime: 0.2
-  dashForce: 20
+  dashForce: 5
   timeCanDash: 1
   canDash: 0
 --- !u!1 &8198671985243052468
