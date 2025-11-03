@@ -16,7 +16,7 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private float timeCanDash = 1f;
 
     private bool isDashing;
-    private bool canDash = false;
+    [SerializeField]private bool canDash = false;
 
 
     public bool IsDashing => isDashing;
@@ -40,7 +40,7 @@ public class PlayerDash : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
           
-            Debug.Log("Dash");
+            
             StartCoroutine(Dash());
 
 
